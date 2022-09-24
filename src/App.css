@@ -1,38 +1,123 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Raleway&display=swap');
+
+.timer{
+  font-size: 8rem;
+  text-align: center;
+  color: red;
+}
+body{
+  color:#04093f;
+  font-family: 'IBM Plex Serif', serif;
+  background-color: #e6e7ee;
+}
+.action{
+  color: #dd2c00;
+  text-align: center;
+  font-size: 16px;
+  margin: 8px;
+}
+#timer-label{
+  font-size: 17px;
+  text-align: center;
+  margin: 0px;
+}
+#time-left{
+  font-size: 3rem;
+  margin: 1px;
   text-align: center;
 }
+.btn-timer{
+  border: 2px solid #04093f;
+  margin: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #04093f;
+  padding: 5px 10px 5px;
+}
+.btn-timer:hover{
+  background-color: #dd2c00;
+}
+.time-seter{
+  padding:3px 6px 3px;
+  color: #dd2c00;
+  
+}
+.heading{
+  color: #c90b0b;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.user{
+  background-color: #04093f;
+}
+.user-email{
+  font-size: 20px;
+  color: #dd2c00;
+  background-color: #04093f;
+}
+.user-email span{
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  background-color: #04093f;
+}
+.sign-out{
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #dd2c00;
+  padding: 6px 18px 7px;
+  cursor: pointer;
+  color: #dd2c00;
+  font-weight: bold;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.sign-out:hover{
+  background-color: red;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.log-card{
+   width: 500px;
+   height: auto;
+   padding: 3rem 2rem 3rem;
+   background-color: #080e60eb;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+.log-card img{
+  background-color:#13186415 ;
+  width: 100%;
+}
+.log-card input{
+  
+  width: 100%;
+  border: 1px solid #ffffff;
+  padding: 5px 16px 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.log-btn{
+  font-size: 16px;
+  padding: 5px 10px 5px;
+  background-color:#ffffff  ;
+  border: 1px solid #dd2c00;
+  cursor: pointer;
+}
+.log-btn:hover{
+  background-color: rgb(105, 211, 11);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.log{
+   background-color: #13186415;
+
+}
+.sign-link{
+  background-color: #13186415;
+  font-size: 14px;
+  color: #c90b0b !important;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  
 }
